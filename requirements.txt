@@ -1,0 +1,4 @@
+InstagramAPI==1.0.2
+mongoengine
+flask
+flask_restplus==0.12.1
