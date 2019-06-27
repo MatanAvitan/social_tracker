@@ -34,7 +34,7 @@ class TrackerCollector(object):
                 if last_user_activity_list:
                     for activity in last_user_activity_list:
                         save_user_activity(user_to_track, activity['text'], activity['timestamp'])
-            print(f'going to sleep at: {datetime.now() + timedelta(hours=3)}')
+            print(f'going to sleep at: {datetime.now()}')
         except Exception as e:
             print(e)
         finally:

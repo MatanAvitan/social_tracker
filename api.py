@@ -1,8 +1,8 @@
 import mongoengine
-import settings
 from flask import Flask
-# from flask_restful_swagger_2 import Api
 from flask_restplus import Api
+
+import settings
 from components.UserToTrack.resource import UserToTrack
 
 mongoengine.connect(
